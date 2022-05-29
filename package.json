@@ -1,0 +1,17 @@
+{
+  "name": "ssg-asset-fetcher",
+  "version": "1.0.0",
+  "description": "Download external assets from prerendered pages and serve them locally.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benton Boychuk-Chorney",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^19.0.0"
+  },
+  "bin": {
+    "ssgfetcher": "./src/index.js"
+  }
+}
